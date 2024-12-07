@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 255, 255, 255;
+
+  --primary-clr: #ecbc0f;
+  --primary-clr-light1: #e4ce75;
+  --white-clr: #ffffff;
+  --black-text: #151515;
+  --bg-gray: #1e1e1e;
+  --light-gray: #f8f9fa;
+  --light-gray2: #474747;
+  --dark-gray: #272829;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: var(--bg-gray);
+    --background-start-rgb: var(--bg-gray);
+  }
+}
+
+body {
+  color: rgb(40, 39, 39);
+  background: var(--background-start-rgb);
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+}
+
+@media (max-width: 768px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+}
