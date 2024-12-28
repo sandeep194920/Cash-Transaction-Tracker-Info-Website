@@ -8,7 +8,7 @@ function Menu() {
   } = data;
 
   return (
-    <ul className="text-primary-clr bg-white shadow-2xl rounded-2xl flex flex-col justify-start items-start absolute right-[-3rem]">
+    <ul className="text-primary-clr bg-black shadow-2xl rounded-2xl flex flex-col justify-start items-start absolute right-[-3rem]">
       {navLinks.map((navLink) => {
         return (
           <>

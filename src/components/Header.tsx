@@ -17,10 +17,10 @@ function Header() {
 
   return (
     <section
-      className="flex justify-between items-start max-w-[90%] md:max-w-[80%] mx-auto space-x-20"
+      className="flex md:justify-between justify-center items-center md:items-start px-7 md:px-0 max-w-[100%] md:max-w-[80%] mx-auto space-x-0 md:space-x-20"
       id="about"
     >
-      <div className="flex flex-col space-y-4 mt-10">
+      <div className="flex flex-col space-y-4 md:mt-10 mt-0">
         <H1
           styles={{ maxWidth: "90%" }}
           dangerouslySetInnerHTML={{ __html: dynamicHeading }}

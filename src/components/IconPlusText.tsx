@@ -31,7 +31,9 @@ function IconPlusText({
       >
         <Icon size={iconSize} color={iconClr} />
       </div>
-      <Paragraph styles={{ lineHeight }}>{text}</Paragraph>
+      <Paragraph className={className} styles={{ lineHeight }}>
+        {text}
+      </Paragraph>
     </div>
   );
 }

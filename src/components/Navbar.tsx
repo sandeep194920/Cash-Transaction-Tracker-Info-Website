@@ -13,7 +13,7 @@ function Navbar() {
     header: { navLinks },
   } = data;
   return (
-    <nav className="flex max-w-[80%] mb-5 mx-auto justify-between items-center shadow-sm">
+    <nav className="flex max-w-[80%] md:mb-5 mb-0 mx-auto justify-between items-center shadow-sm">
       <Image
         style={{ marginLeft: "-1.3rem" }}
         src="/logo.png"

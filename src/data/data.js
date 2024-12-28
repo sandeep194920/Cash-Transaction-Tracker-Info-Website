@@ -38,11 +38,11 @@ export const data = {
       features: [
         {
           provided: true,
-          text: "Light and Dark Mode",
+          text: "10 Customers",
         },
         {
           provided: true,
-          text: "100 free transactions",
+          text: "100 transactions",
         },
         {
           provided: true,
@@ -88,14 +88,14 @@ export const data = {
       ],
     },
     {
-      heading: "CTT Plus",
+      heading: "CTT +",
       image: "/dark_mode_1.png",
       description:
         "The ultimate cash ledger solution for unlimited transactions and advanced features to grow your business.",
       features: [
         {
           provided: true,
-          text: "Light and Dark Mode",
+          text: "Unlimited Customers",
         },
         {
           provided: true,

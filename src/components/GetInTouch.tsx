@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { H2 } from "./Text/Heading";
+import { H2, H6 } from "./Text/Heading";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 import Image from "next/image";
 import Paragraph from "./Text/Paragraph";
@@ -100,10 +100,11 @@ function GetInTouch() {
       }, 10000);
     }
   }, [isFormSubmitted]);
+
   return (
     <section id="get-in-touch" className="my-16">
       <H2>Get in Touch</H2>
-      <div className="flex flex-col md:flex-row max-w-[90%] md:max-w-[80%] mx-auto justify-between">
+      <div className="flex flex-col md:flex-row max-w-[90%] md:max-w-[80%] mx-auto justify-between gap-1 md:gap-10 ">
         <div className="flex flex-col">
           <div className="mb-4">
             <Image
@@ -132,7 +133,7 @@ function GetInTouch() {
                 </a>
               </span>
             </div>
-            <div className="flex items-center space-x-4 text-white">
+            {/* <div className="flex items-center space-x-4 text-white">
               <FaPhoneAlt className="text-2xl" />
               <span>
                 Phone:{" "}
@@ -140,7 +141,13 @@ function GetInTouch() {
                   +1-(902)802-8894
                 </a>
               </span>
-            </div>
+            </div> */}
+            <Paragraph className="!text-primary-clr font-semibold">
+              The app is still in development and will be available for download
+              on both Android and iOS soon. Please leave your email in the
+              contact form if you're interested, and feel free to let us know
+              which additional features you would like. Thank you.
+            </Paragraph>
           </div>
         </div>
 
